@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mood"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mood1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setMood"
+                android:tag="1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/mood2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setMood"
+                android:tag="2"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/mood3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setMood"
+                android:tag="3"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/mood4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setMood"
+                android:tag="4"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/mood5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setMood"
+                android:tag="5"
+                android:text="5" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energy"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/energy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setEnergy"
+                android:tag="1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/energy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setEnergy"
+                android:tag="2"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/energy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setEnergy"
+                android:tag="3"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/energy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setEnergy"
+                android:tag="4"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/energy5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setEnergy"
+                android:tag="5"
+                android:text="5" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Body"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setBody"
+                android:tag="1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setBody"
+                android:tag="2"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/body3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setBody"
+                android:tag="3"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/body4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setBody"
+                android:tag="4"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/body5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="setBody"
+                android:tag="5"
+                android:text="5" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/waking_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="viewDataCollector"
+                    android:text="Waking Up" />
+
+                <Button
+                    android:id="@+id/vitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="viewDataCollector"
+                    android:tag="Vitamins"
+                    android:text="Vitamins" />
+
+                <Button
+                    android:id="@+id/acne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="viewDataCollector"
+                    android:tag="Acne"
+                    android:text="Acne" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/sickness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="viewDataCollector"
+                    android:text="Sickness" />
+
+                <Button
+                    android:id="@+id/intoxicants"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="viewDataCollector"
+                    android:tag="Intoxicants"
+                    android:text="intoxicants" />
+
+                <Button
+                    android:id="@+id/food"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="viewDataCollector"
+                    android:text="Food" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="viewSettings"
+                    android:text="Settings" />
+
+                <Button
+                    android:id="@+id/Exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="exitProgram"
+                    android:text="Exit" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
