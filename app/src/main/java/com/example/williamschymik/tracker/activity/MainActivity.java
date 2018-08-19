@@ -28,24 +28,6 @@ public class MainActivity extends AppCompatActivity {
         this.registerReceiver(mReceiver, filter);
     }
 
-    public void setMood(View view) {
-        String mood = view.getTag().toString();
-        final DataLogHandler myDb = DataLogHandler.getInstance(this);
-        myDb.insertDataLog(new DataLog("mood", mood));
-    }
-
-    public void setEnergy(View view) {
-        String energy = view.getTag().toString();
-        final DataLogHandler myDb = DataLogHandler.getInstance(this);
-        myDb.insertDataLog(new DataLog("energy", energy));
-    }
-
-    public void setBody(View view) {
-        String body = view.getTag().toString();
-        final DataLogHandler myDb = DataLogHandler.getInstance(this);
-        myDb.insertDataLog(new DataLog("body", body));
-    }
-
     public void viewSettings(View view) {
         Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
